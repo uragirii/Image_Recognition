@@ -1,0 +1,35 @@
+# Image_Recognition_v1
+.LOG
+
+7:32 PM 27-Nov-17
+This is my log file to report the things I do in my Image Recognition Project.This is nothing but a "Hello World" Program in the Machine Learning World.
+I'm creating v1 using only a simple "Logistic Regression and One vs All Classification".I'm expecting accuracy of ~90% or less.
+
+The code name of this project is "IMGRG".
+
+Details are as follows;
+{File Names}
+[Final_Program.py]- A python 3.6 program to just gather the pixels of the Grayscale Images and convert them to pixels and store them in [IMGRG_data.txt].
+[IMGRG_data.txt]- A text file created by the [Final_Program.py]. It stores the values of pixels of various Images in a comma seperatef form.
+[IMGRG_testdata.txt]- A text file creted by [Testing_Data_Creator.py].It stores the values of pixels of various Images in a comma seperated form.
+[Testing_Data_Creator]- A python 3.6 program to just gather the pixels of the Grayscale Images and convert them to pixels and store them in [IMGRG_testdata.txt]. 
+[Main_matlab_Program.m]- A MATLAB file to implement all the other MATLAB functions and finally performing the real work.
+
+
+
+{Folder}
+[Training_Set]- This folder contains another five folders which contain 1000 images for each digit from 1-5.
+[Testing data]- This folder contains another five folders which contain 1000 images for each digit from 1-5.
+9:08 PM 27-Nov-17
+
+9:22 PM 27-Nov-17
+{Update}:
+Just ran the modelon the existing digits and it was 98.72% accurate for 100 iterations and 97.64% for 50 iterations. (lamda =0.1)
+But the main point is that it tested the training data, now its time to make it test for new data.
+For this I'll use another set of 5000 images(1000 of each type) and check whether the model was accurate or not.
+
+9:37 PM 27-Nov-17
+{Update}:
+Just ran the model on the test dataset and it was 97.64% accurate for 50 iterations.(lamda =0.1) 
+Mind you, the testing data is not as same as the training and still the model was accurate enough.
+
