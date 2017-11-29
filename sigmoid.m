@@ -1,6 +1,4 @@
 function g = sigmoid(z)
-%SIGMOID Compute sigmoid functoon
-%   J = SIGMOID(z) computes the sigmoid of z.
-
+%This file is the MATLAB functio to implement the Sigmoid function(https://en.wikipedia.org/wiki/Sigmoid_function). 
 g = 1.0 ./ (1.0 + exp(-z));
 end
