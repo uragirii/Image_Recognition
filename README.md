@@ -6,3 +6,6 @@
 
 You can find various details in the [log.txt](Image_Recognition_v1/log.txt) file.
 
+**Update 1.1**
+
+Just Updated the comments in various files to make them more accurate and informative.
