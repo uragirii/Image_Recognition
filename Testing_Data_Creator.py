@@ -12,7 +12,7 @@ def write_data(file_names,y,file_path):
     """"
     This is the most important function of this file.
     Inputs : Accepts the {file_name} which is the list of the names of the files in a particular folder.
-           : Accepts the {y} which tells what is the value of the digit. y E {1,2,3,4,5}.
+           : Accepts the {y} which tells what is the value of the digit. y E {1,2,3,4,5,6,7,8,9}.
            : Accepts the {file_path} which tells where the image is located.
     Output : Void.
     """
@@ -32,7 +32,8 @@ def write_data(file_names,y,file_path):
 
 mypath = r'E:\Codes\AI\My Projects\Image Recognition\Final\Testing data'
 
-for i in range(1,6):
+for i in range(1,10):
+    print("Creating data of digit", i)
     temp_file_names = []
     temp_mypath = mypath + '\\'+ str(i)
     for (dirpath, dirnames, filenames) in walk(temp_mypath):

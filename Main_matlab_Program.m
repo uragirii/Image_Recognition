@@ -9,7 +9,7 @@ fprintf('Loading the data ...\n')
 data = load('IMGRG_data.txt');
 X = data(:,1:784);
 y = data(:,785);
-num_labels = 5;
+num_labels = 9;
 input_layer_size = 784;
 m = size(X,1);
 fprintf('\nTraining One-vs-All Logistic Regression...\n')

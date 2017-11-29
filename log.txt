@@ -1,4 +1,3 @@
-# Image_Recognition_v1
 .LOG
 
 7:32 PM 27-Nov-17
@@ -36,3 +35,43 @@ Mind you, the testing data is not as same as the training and still the model wa
 7:32 29-Nov-2017
 {Update 1.1}
 Just updated the documentation and comments on various files. This was done in order to make them more accurate according to my program requirements
+
+7:41 PM 29-Nov-17
+{Update}
+Adding more traing data, now there are 9000images(1-9 digits)
+
+7:57 PM 29-Nov-17
+{Update 1.2}
+Walking toward the version v1.2 (for v.1 check the Github profile)
+The changes made in v1.1 are not made directly here, instead they are changed on the github page and then the files are downloaded and replaced
+
+8:04 PM 29-Nov-17
+{Update}:
+Just ran the model and it showed 53.44% accuracy for 50iterations.Now i'll run the model for 100 iterations.
+
+8:06 PM 29-Nov-17
+{Update}
+Found a blunder and fixed it.I forgot to change the value of [num_label] to 9.
+Changed the value and found that the model is 93.33% accurate. Pretty Impressive. just i'll attempt to change the iterations to 100 and see what change does it make.
+
+8:09 PM 29-Nov-17
+{Update}:
+Changed the value of iterations and found out that accuracy increased to 94.82%. for last time i'm just checking by changing the value to 150.
+
+8:13 PM 29-Nov-17
+{Update}:
+Increased the value and got a higher accuracy percentage of 95.66. But at cost of time. For the time being.I'm going to keep the value of iterations to be 100. And now im going to increase the Data size.
+
+8:28 PM 29-Nov-17
+{Update 1.2.1}:
+Increased the training data to maximum possible while keeping the testing data constant. The accuracy @iterations =100 was 92.67% pretty impressive,i must say. I think this could be the limit of logistic Regression.
+
+
+9:12 PM 29-Nov-17
+{Update 1.2}
+The documentation has been improved.
+Python files have become more responsive and informative to the console, with displaying the digit number while creating its data.
+The model size has increased and now accomodate all the digits and given digits, except {0}. This would be provided in a later update.
+The model has become less accurate the accuracy dropped from 98.72% to 94.82%, owing to the increased size of training data.
+The model is now saved as 100 iterations as default. This was the demand of the increasing size of data and decreasing accuracy rate.
+The final update would be uploaded to Githib Profile as Image_Recognition_v1.2.
