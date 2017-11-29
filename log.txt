@@ -33,3 +33,6 @@ For this I'll use another set of 5000 images(1000 of each type) and check whethe
 Just ran the model on the test dataset and it was 97.64% accurate for 50 iterations.(lamda =0.1) 
 Mind you, the testing data is not as same as the training and still the model was accurate enough.
 
+7:32 29-Nov-2017
+{Update 1.1}
+Just updated the documentation and comments on various files. This was done in order to make them more accurate according to my program requirements
