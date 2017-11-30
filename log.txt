@@ -75,3 +75,25 @@ The model size has increased and now accomodate all the digits and given digits,
 The model has become less accurate the accuracy dropped from 98.72% to 94.82%, owing to the increased size of training data.
 The model is now saved as 100 iterations as default. This was the demand of the increasing size of data and decreasing accuracy rate.
 The final update would be uploaded to Githib Profile as Image_Recognition_v1.2.
+The IMGRG data files will not be uploaded as they are very big in size and Github can't support them.
+
+9:40 PM 29-Nov-17
+{Update}
+Thought of new update in the python files to automatically check whether the file exits and then delete them accordingly or else it with cause problems with MATLAB.
+Also updating the MATLAB function to make the choice of [max_itr] variable in the main file.
+
+1:50 PM 30-Nov-17
+{Update}:
+//Forgot to update log file due to illness, Now feeling good.
+The python file update was great. I helped to clear the clutter and work project easily.
+The next task i'm thinking is to combine the 2 python files and clutter them together.
+
+2:32 PM 30-Nov-17
+{Update}:
+Added a [show_percentage] function to show the progress of data creation.This had the file more responsive.
+
+1:39 AM 01-Dec-17
+{Update 1.3}
+Thr python file now show how much percentage of images are converted.
+The max_itr variable is now added to [main_matlab_program] file so as to change it.
+The python file now deletes the existing data file so as to avoid the overwriting and irregularities in the data.
