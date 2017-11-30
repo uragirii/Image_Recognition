@@ -12,9 +12,10 @@ y = data(:,785);
 num_labels = 9;
 input_layer_size = 784;
 m = size(X,1);
+maxiter =100;
 fprintf('\nTraining One-vs-All Logistic Regression...\n')
 lambda = 0.1;
-[all_theta] = oneVsAll(X, y, num_labels, lambda);
+[all_theta] = oneVsAll(X, y, num_labels, lambda,maxiter);
 fprintf('Program paused. Press enter to continue.\n');
 pause;
 testdata = load('IMGRG_testdata.txt');
